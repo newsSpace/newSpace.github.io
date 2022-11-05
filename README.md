@@ -1,1 +1,1 @@
-newSpace.github.io
+(newsSpace.github.io)
