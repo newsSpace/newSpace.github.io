@@ -1,1 +1,1 @@
-[adress](newsSpace.github.io)
+[adress](https://newsSpace.github.io)
