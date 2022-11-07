@@ -1,7 +1,9 @@
-<header class="header">
-  <h3 class="header-title">
-    <a href="{{ site.github.url }}/">{{ site.title }}</a>
-    <small class="header-subtitle">{{ site.description }}</small>
-    {% include menu.html %}
-  </h3>
-</header>
+<header class="site-header">
+
+    <div class="wrapper">
+      {%- assign default_paths = site.pages | map: "path" -%}
+      {%- assign page_paths = site.header_pages | default: default_paths -%}
+      {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
+  </header>
