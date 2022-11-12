@@ -3,7 +3,7 @@ author:
   name: Jihan
   email: forcoding4@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  We're students in Korea, Gyeonggi-do who want to access information about space.
+  We're students in Korea, Gyeonggi-do who want to access information about space easily.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
